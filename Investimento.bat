@@ -1,0 +1,2 @@
+python Investimento.py
+pause
