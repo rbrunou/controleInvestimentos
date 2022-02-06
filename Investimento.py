@@ -15,7 +15,7 @@ from matplotlib import pyplot as plt
 from IPython.display import clear_output
 
 #Importa dados da planilha de planilha_investido e usa a data como index
-planilha_investido = pd.read_excel('d:/Users/renat/Desenvolvimento/Investimento/Dados.xlsx', index_col = 0)
+planilha_investido = pd.read_excel('./Dados.xlsx', index_col = 0)
 clear_output()
 
 #Separo os dias que houveram 1 ou mais planilha_investido
